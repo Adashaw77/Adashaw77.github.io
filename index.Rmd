@@ -18,8 +18,9 @@ I can link directly to my [about page](about.html)
 
 ## I can add some code
 ```{r}
+library(tidyverse)
 tibble(
-  x = 1:10
+  x = 1:10, 
   y = x+2
 )
 ```
