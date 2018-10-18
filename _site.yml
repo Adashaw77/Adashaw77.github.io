@@ -4,7 +4,7 @@ navbar:
   title: "Home"
   right:
     - text: "Google"
-      href: http://github.com/<Adashaw77>/
+      href: https://adashaw77.github.io/
     - text: "About"
       href: about.html
     - icon: fa-envelope fa-lg
