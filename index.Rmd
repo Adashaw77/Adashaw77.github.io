@@ -13,3 +13,5 @@ I can put some text.
 I like [google](http://www.google.com)
 
 I can link directly to my [about page](about.html)
+
+<img src="images/caleb-george-316073-unsplash.jpg" style="width:75%">
