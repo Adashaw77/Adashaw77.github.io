@@ -7,3 +7,9 @@ title: "Holy cow!"
 And I can put all kinds of stuff on it!
 
 I can put some text.
+
+## Add some links
+
+I like [google](http://www.google.com)
+
+I can link directly to my [about page](about.html)
