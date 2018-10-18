@@ -15,3 +15,11 @@ I like [google](http://www.google.com)
 I can link directly to my [about page](about.html)
 
 <img src = "images/caleb-george-316073-unsplash.jpg" style="width:150%">
+
+## I can add some code
+```{r}
+tibble(
+  x = 1:10
+  y = x+2
+)
+```
