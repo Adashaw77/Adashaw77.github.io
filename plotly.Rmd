@@ -1,8 +1,5 @@
 ---
 title: "Plotly"
-author: "Qi Shao"
-date: "10/23/2018"
-output: html_document
 ---
 
 This page shows some example plotly plots.
@@ -47,4 +44,18 @@ nyc_airbnb %>%
 
 ```
 scatter: 
-"\n" new line 
+"$\n$" new line 
+
+```{r}
+common_neighborhoods =
+  nyc_airbnb %>% 
+  count(neighbourhood, sort = TRUE) %>% 
+  #top_n(8) %>% 
+  select(neighbourhood)
+## Selecting by n
+
+inner_join(nyc_airbnb, common_neighborhoods,
+             by = "neighbourhood") %>% 
+  mutate(neighbourhood = fct_reorder(neighbourhood, price)) %>% 
+  plot_ly(y = ~price, color = ~neighbourhood, type = "box",
+          colors = "Set2")
