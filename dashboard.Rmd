@@ -23,12 +23,6 @@ nynoaa_df =
           month = month.name[as.integer(month)], 
           year = as.numeric(year))
   
-#prcp_df = 
-#  filter(nynoaa_df, prcp >0) %>%
-#  group_by(year) 
-#  ggplot(data = prcp_df, aes(x = year, y = prcp)) %>%
-#  geom_boxplot(aes(fill = year))
-  
   
 ```
 Column {data-width=650}
@@ -62,11 +56,17 @@ Column {data-width=350}
 ### Chart B
 
 ```{r}
-
+  filter(nynoaa_df, snow >0, snow<100) %>%
+    mutate(year = as.character(year)) %>%
+    group_by(year) %>%
+    plot_ly(y = ~snow, color = ~year, type = "box",
+          colors = "Set2")
 ```
 
 ### Chart C
 
 ```{r}
-
+  group_by(nynoaa_df,month, year) %>%
+    summarise(avr_max = mean(tmax,na.rm = TRUE), avr_min = mean(tmin,na.rm = TRUE)) %>%
+    plot_ly(x = ~avr_min, y = ~avr_max, color = ~month, alpha = .6, type = "scatter", text = ~year)
 ```
