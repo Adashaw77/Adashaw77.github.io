@@ -10,9 +10,9 @@ navbar:
     - text: "resume"
       href: resume.html
     - text:  "Google"
-      href: http://www.google.com>/
+      href: http://www.google.com
     - icon: fa-envelope fa-lg
-      href: mailto:<qs2200@columbia.educom>
+      href: mailto:<qs2200@columbia.edu>
     - icon: fa-github fa-lg
       href: https://github.com/Adashaw77/
 output:
