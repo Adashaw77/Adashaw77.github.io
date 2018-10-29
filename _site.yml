@@ -9,7 +9,7 @@ navbar:
       href: dashboard.html
     - text: "resume"
       href: resume.html
-    - text:  "Google"
+    - text: "Google"
       href: http://www.google.com
     - icon: fa-envelope fa-lg
       href: mailto:<qs2200@columbia.edu>
