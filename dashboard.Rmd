@@ -28,7 +28,28 @@ nynoaa_df =
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### T-max vs T-min in each month
+
+```{r}
+  group_by(nynoaa_df,month, year) %>%
+    summarise(avr_max = mean(tmax,na.rm = TRUE), avr_min = mean(tmin,na.rm = TRUE)) %>%
+    plot_ly(x = ~avr_min, y = ~avr_max, color = ~month, alpha = .6, type = "scatter", text = ~year)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Snowfall distribution in each year
+
+```{r}
+  filter(nynoaa_df, snow >0, snow<200) %>%
+    mutate(year = as.character(year)) %>%
+    group_by(year) %>%
+    plot_ly(y = ~snow, color = ~year, type = "box",
+          colors = "Set2")
+```
+
+### T-max and T-min in Jaunary and August
 
 ```{r}
 mean_tem = group_by(nynoaa_df, year, month) %>%
@@ -48,25 +69,4 @@ temp_1 = ggplot(mean_tem)+
   theme_bw()
 
 ggplotly(temp_1)
-```
-
-Column {data-width=350}
------------------------------------------------------------------------
-
-### Chart B
-
-```{r}
-  filter(nynoaa_df, snow >0, snow<100) %>%
-    mutate(year = as.character(year)) %>%
-    group_by(year) %>%
-    plot_ly(y = ~snow, color = ~year, type = "box",
-          colors = "Set2")
-```
-
-### Chart C
-
-```{r}
-  group_by(nynoaa_df,month, year) %>%
-    summarise(avr_max = mean(tmax,na.rm = TRUE), avr_min = mean(tmin,na.rm = TRUE)) %>%
-    plot_ly(x = ~avr_min, y = ~avr_max, color = ~month, alpha = .6, type = "scatter", text = ~year)
 ```
