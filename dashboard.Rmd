@@ -1,0 +1,72 @@
+---
+title: "dashborad"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(ggridges)
+library(plotly)
+```
+
+```{r}
+nynoaa_df = 
+  read_csv(file = "./data/nynoaadat.csv") %>%
+  separate(date, into = c("year", "month", "date"), sep = "-") %>%
+   mutate(tmax = (as.numeric(tmax)/10), 
+          tmin = (as.numeric(tmin)/10),
+          prcp = prcp / 10,
+          month = month.name[as.integer(month)], 
+          year = as.numeric(year))
+  
+#prcp_df = 
+#  filter(nynoaa_df, prcp >0) %>%
+#  group_by(year) 
+#  ggplot(data = prcp_df, aes(x = year, y = prcp)) %>%
+#  geom_boxplot(aes(fill = year))
+  
+  
+```
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+mean_tem = group_by(nynoaa_df, year, month) %>%
+  filter(month %in% c("January","August")) %>%
+  summarise(avr_max = mean(tmax,na.rm = TRUE), avr_min = mean(tmin,na.rm = TRUE))
+  
+
+temp_1 = ggplot(mean_tem)+
+  geom_line(aes(x = year, y = avr_max, color = month))+
+  geom_line(aes(x = year, y = avr_min,color = month))+
+  facet_grid(~month)+
+  labs(
+    title = "Average min and max temperature",
+    x = "Year",
+    y = "Avarage temperature") +
+  scale_x_continuous(breaks = c(1981, 1986, 1991, 1996, 2001, 2006, 2010))+
+  theme_bw()
+
+ggplotly(temp_1)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```

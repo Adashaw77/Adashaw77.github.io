@@ -2,3 +2,7 @@
 title: "Welcome!"
 ---
 ##This is Qi Shao's personal webpage.
+
+I love pandas!
+
+<img src="images/42795c2e122da6b94e3e684758fd08dd.jpg" style="width:100%">
