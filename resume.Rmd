@@ -1,84 +1,89 @@
 ---
-title: Wode "Nimo" Ni
+title: "Resume"
 ---
-# Wode __Ni__
 
-<div id="webaddress">
-<i class="fi-home" style="margin-left:1em"></i>
-<a href="http://www.cs.cmu.edu/~woden" style="margin-left:0.5em">cs.cmu.edu/~woden</a>
-<i class="fi-mail" style="margin-left:1em"></i>
-<a href="woden@cs.cmu.edu" style="margin-left:0.5em">woden@cs.cmu.edu</a>
-</div>
+#**Qi Shao**
 
-## Education
+100 Have Avenue, #8H, New York, NY10032
 
-### __Carnegie Mellon University__ `2018.9 -`
-```
-Pittsburgh, PA
-```
-- Ph.D. in Software Engineering
+(646)384-5338   
 
-### __Columbia University__ `2016.9 - 2018.5`
-```
-New York, NY
-```
-- B.S. in Computer Science, _Magna Cum Laude_
-- Vision, Graphics track
+qs2200@columbia.edu
 
-### __Dickinson College__ `2013.9 - 2016.5`
-```
-Carlisle, PA
-```
-- B.S. in Computer Science, _Summa Cum Laude_
-- Computer Science Departmental Honors
+<br>
 
-## Publications
-
-### [__Substance and Style: domain-specific languages for mathematical diagrams__](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
-__Wode Ni\*__, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br>  _Domain-Specific Language Design and Implementation (DSLDI 2017),  co-located with SPLASH._ <br>
-[[PDF](assets/dsldi.pdf)]
-[[slides](assets/dsldi-presentation.pdf)]
-[[www](http://penrose.ink)]
-[[repo](https://github.com/penrose/penrose)]
-
-### [__Whiteboard Scanning Using Super-Resolution__](http://scholar.dickinson.edu/student_honors/221/)
-__Wode Ni__.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF](assets/superres.pdf)]
-
-## Experience
-
-### __Carnegie Mellon University, Research Experiences for Undergraduate__  `2017.5 - 2017.8`
-_Research Assistant_<br>
-__Penrose__ is a system that automatically visualizes mathematics using two domain-specific languages: __Substance__ and __Style__. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
-
-### __Columbia University, Computer Graphics and User Interfaces Lab__ `2017.1 - 2017.5`
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on __Cyber Affordance Visualization in Augumented Reality__ project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
-
-### __AsiaInfo__ `2015.6 - 2015.8`
-_Software Engineering Intern_<br>
-Worked on server-side web applications and server deployment tools.
+##EDUCATION
 
 
-## Teaching
+###Columbia University, Mailman School of Public Health                                         
+Expected 05/2020 
 
-Teaching Assistant, __Programming Languages and Translators (COMS 4115)__ `Columbia, 2017 - 2018` <br>
-Teaching Assistant, __Introduction to Java II (COMP 132)__ `Dickinson, 2016` <br>
-Peer Tutor, __Data Structures and Problem Solving (COMP 232)__ `Dickinson, 2016` <br>
-Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
+**Master of Science in Biostatistics**
+
+* Main Courses: Probability, Biostatistics Method, Data Science, Statistical Inference, Statistical Inference
 
 
-## Honors & Awards
+###Shandong University, Jinan, China                                                                  
+06/2018
 
-Phi Beta Kappa `Dickinson, 2018` <br>
-Excellence in Computer Science Award `Columbia, 2018` <br>
-Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honors `Dickinson, 2016` <br>
-Pi Mu Epsilon, Mathematics Honor Society `Dickinson, 2016` <br>
-Upsilon Pi Epsilon, Computer Science Honor Society  `Dickinson, 2016` <br>
-Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
-John Montgomery Scholarship `Dickinson, 2013` <br>
+**Bachelor of Science in Biological Technology **     
 
-<!-- ### Footer
+* Main Courses: Advanced Math, Linear Algebra, Probability Statistics, Biostatistics, Bioinformatics
 
-Last updated: May 2013 -->
+* Publication: Effect of Gasotransmitters NO and H2S on Photosynthesis of Chinese Cabbage Seedlings under Chilling Stress". Journal of Shanxi University (Nat.Sci.Ed.), no. 40(3) :596-601,2017. 
+
+* Honors & Awards: Scholarship for Academic Excellence (2016, 2017)        
+
+<br>
+
+##INTERNSHIP EXPERIENCE
+
+###The Beijing Genomics Institute, Shenzhen, Guangdong                                         
+07/2017–08/2017 
+
+**Data Analyst Intern, Public Disease Department**
+
+* Collected CNVs (copy number variations) associated with childhood obesity diabetic diseases from different races
+* Used SNPsea software to compare the different interpretation of the same genes in various cells, find out the risk genes
+* Learned Python under Linux OS, and ran analysis software in the cluster environment 
+
+###Shanxi Environmental Science Research Center, Taiyuan, Shanxi                                 
+
+06/2017–07/2017 
+
+**Research Analyst **
+
+* Participated in Shanxi section of National Ecology Changes Evaluation Project (2010-2015)
+* Organized ecological data as well as climatic data and socioeconomic data
+*Data analysis using Excel, conducted significant test of ecological parameters and meteorological factors
+
+<br>
+
+##ACADEMIC PROJECT
+
+###Research on highly efficient synthesis of alpha lipoic acid using synthesis biological methods, Shandong University                                                          
+04/2017-05/2018 
+
+**Project Leader**
+
+*	Organized team meetings for 10 times, brainstormed the experimental procedures and designs
+
+*	Used QS (Quorum sensing) systems to construct cascade circuits in cells
+
+*	Constructed an auto-induced AND gate that can response to rpoSP1 promoter and cell density to yield specific outputs
+
+<br>
+
+##VOLUNTEER LEADERSHIP AND INTEREST 
+
+* Shandong University: Leader of Radio Program Team, interviewing people, program editing; 
+
+* Water Quality Test of Urban Surface Water of Taiyuan, Shanxi: Team Leader, gathered and analyzed water samples, distributed questionnaires accordingly, wrote a report.
+
+<br>
+
+##SKILLS
+
+* Computer and Software skills: Microsoft Office, R, Linux OS
+
+* Languages: Chinese/English
