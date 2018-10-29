@@ -6,7 +6,7 @@ navbar:
     - text: "About"
       href: about.html
     - text: "Dashboard"
-      href: code.html
+      href: dashboard.html
     - text: "resume"
       href: resume.html
     - text:  "Google"
