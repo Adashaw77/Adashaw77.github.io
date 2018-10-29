@@ -5,13 +5,15 @@ navbar:
   right:
     - text: "About"
       href: about.html
-    - text: "code"
+    - text: "Dashboard"
       href: code.html
     - text: "resume"
       href: resume.html
+    - text:  "Google"
+      href: http://www.google.com>/
     - icon: fa-envelope fa-lg
       href: mailto:<qs2200@columbia.educom>
     - icon: fa-github fa-lg
-      href: http://www.google.com>/
+      href: https://github.com/Adashaw77/
 output:
   html_document
